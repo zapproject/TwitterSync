@@ -52,7 +52,6 @@ class TwitterClient {
                     console.log('err', err);
                     reject(err);
                 } else {
-                    console.log('reply', reply);
                     resolve(reply);
                 }
             });
