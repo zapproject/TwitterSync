@@ -1,0 +1,16 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "zap bot for twitter",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "twit": "^2.2.11"
+  }
+}
